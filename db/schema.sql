@@ -6,7 +6,7 @@ CREATE TABLE burgers
 (
     id int NOT NULL AUTO_INCREMENT,
     burger_name VARCHAR(255) NOT NULL,
-    devoured TINYINT(1) DEFAULT NULL,
+    devoured TINYINT(1) DEFAULT 0,
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 );
